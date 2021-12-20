@@ -24,7 +24,7 @@ from telethon.tl.types import ChatAdminRights, ChatBannedRights
 from telethon.tl.functions.channels import EditAdminRequest, EditBannedRequest, EditPhotoRequest, DeleteUserHistoryRequest
 from telethon.tl.functions.messages import EditChatAdminRequest
 
-# ================== КОНСТАНТЫ ========================
+# ================== CONSTANTS ========================
 
 DEMOTE_RIGHTS = ChatAdminRights(post_messages=None,
                                 add_admins=None,
