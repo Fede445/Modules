@@ -21,7 +21,7 @@ class ImpMod(loader.Module):
 
         background = requests.get(
             f"https://fl1yd.ml/modules/stuff/impostor{randint(1,22)}.png").content
-        font = requests.get("https://fl1yd.ml/modules/stuff/font2.ttf").content
+        font = requests.get("https://fl1yd.su/modules/stuff/font2.ttf").content
 
         await message.edit("Just a minute...")
         reply = await message.get_reply_message()
