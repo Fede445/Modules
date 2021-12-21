@@ -20,7 +20,7 @@ class ImpMod(loader.Module):
         text2 = f"\n{remain} impostor(s) remain."
 
         background = requests.get(
-            f"https://fl1yd.ml/modules/stuff/impostor{randint(1,22)}.png").content
+            f"https://fl1yd.su/modules/stuff/impostor{randint(1,22)}.png").content
         font = requests.get("https://fl1yd.su/modules/stuff/font2.ttf").content
 
         await message.edit("Just a minute...")
