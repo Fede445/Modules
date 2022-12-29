@@ -15,8 +15,8 @@ from html import unescape
 from googleapiclient.discovery import build
 from requests import get
 
-from youtube_dl import YoutubeDL
-from youtube_dl.utils import (DownloadError, ContentTooShortError,
+from yt_dlp import YoutubeDL
+from yt_dlp.utils import (DownloadError, ContentTooShortError,
                               ExtractorError, GeoRestrictedError,
                               MaxDownloadsReached, PostProcessingError,
                               UnavailableVideoError, XAttrMetadataError)
